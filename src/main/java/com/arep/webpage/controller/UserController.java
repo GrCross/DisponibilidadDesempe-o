@@ -22,7 +22,7 @@ public class UserController {
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
-    @RequestMapping(value = "/text", method = RequestMethod.GET)
+    @RequestMapping(value = "/text", method = RequestMethod.POST)
     public ResponseEntity<Map<String,Integer>> recursoConsultarUsuarioPorCorreo(@RequestBody Text text)
             throws NotFoundException {
         try {
