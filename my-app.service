@@ -2,8 +2,8 @@
 Description=myapp
 
 [Service]
-ExecStart=/usr/bin/java -jar /home/spti/Documents/DisponibilidadDesempe-o/target/web-page-0.0.1-SNAPSHOT.jar
-WorkingDirectory=/home/spti/Documents/DisponibilidadDesempe-o/target
+ExecStart=/usr/bin/java -jar /home/ubuntu/DisponibilidadDesempe-o/target/web-page-0.0.1-SNAPSHOT.jar
+WorkingDirectory=/home/ubuntu/DisponibilidadDesempe-o/target
 
 [Install]
 WantedBy=multi-user.target
