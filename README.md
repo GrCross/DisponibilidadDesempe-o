@@ -1,5 +1,4 @@
-#
-DisponibilidadDesempeño
+# DisponibilidadDesempeño
 
 En este tutorial se mostrará como se crea un grupo de autoescalamiento usando EC2 y los grupos de autoescalamiento de AWS
 
@@ -36,7 +35,9 @@ Una vez se halla creado el grupo de auto escalamiento procedemos a la seccion de
 ![](/images/autoS1.png)
 Se tiene que llenar los datos de acuerdo con los anteriores paso, como por ejemplo el "Launch Template" tiene que ser el mismo que se creo anteriormente
 ![](/images/autoS2.png)
-Se procede a revisar que los datos ingresados sean los correctos y se creará le grupo
 ![](/images/autoS3.png)
+Se procede a revisar que los datos ingresados sean los correctos y se creará le grupo
+![](/images/autos3.png)
 Cuando ya se halla creado el grupo no sera posible ver sus detalles como por ejemplo el Launch Template que se escogio, la capacidad deseada, en numero de instancias maximo
 y minimo que se quieren y sus politicas de autoescalamiento
+![](/images/autoS5.png)
